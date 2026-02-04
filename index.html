@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ꦔꦶꦠꦸꦁꦈꦏꦸꦫꦤ꧀ꦤꦺ꧇ꦥꦸꦭ꧀ꦭꦶ</title>
+  <title>ꦔꦶꦠꦸꦁꦈꦏꦸꦫꦤ꧀ꦤꦺ꧇ꦥꦸꦭ꧀ꦭꦶ꧇ꦭꦤ꧀꧇꧈ꦫ꧈ꦥ꧈ꦩ꧈</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -52,38 +52,40 @@
 </head>
 <body>
 
-  <h1>Pulley Calculator</h1>
-  <p>Hitung diameter pulley tujuan (D2) atau RPM tujuan (N2) dengan mudah.</p>
+  <h1>ꦔꦶꦠꦸꦁꦈꦏꦸꦫꦤ꧀ꦤꦺ꧇ꦥꦸꦭ꧀ꦭꦶ꧇</h1>
+
+  <h1></h1>
+  <p>Hitung diameter pulley tujuan (ꦥ2) atau RPM tujuan (ꦱ2) dengan mudah.</p>
 
   <!-- SECTION 1: Hitung D2 -->
   <div class="section">
-    <h2>Hitung Diameter Pulley Tujuan (D2)</h2>
-    <label for="d1_d2">Diameter Pulley Sumber (D1) cm:</label>
-    <input type="number" id="d1_d2" placeholder="misal 10" />
+    <h2>Ngitung Diameter Pulley Tujuan (ꦥ2)</h2>
+    <label for="d1_d2">Diameter Pulley Sumber (ꦥ1) cm:</label>
+    <input type="number" id="d1_d2" placeholder="lebokno diametere pully (ꦥ1) yaiku 20" />
 
-    <label for="n1_d2">RPM Pulley Sumber (N1):</label>
-    <input type="number" id="n1_d2" placeholder="misal 1400" />
+    <label for="n1_d2">RPM Pulley (ꦱꦁꦏꦤ꧀) (ꦱ1):</label>
+    <input type="number" id="n1_d2" placeholder="iki energy (rpm) 1400" />
 
-    <label for="n2_d2">Target RPM Pulley Tujuan (N2):</label>
+    <label for="n2_d2">Target RPM Pulley Tujuan (ꦥꦫꦤ꧀) (ꦱ2):</label>
     <input type="number" id="n2_d2" placeholder="misal 1000" />
 
-    <button onclick="calculateD2()">Hitung D2</button>
+    <button onclick="calculateD2()">Itungno Diameter Pullyne Piro? (ꦥ2)</button>
     <div class="result" id="resultD2"></div>
   </div>
 
   <!-- SECTION 2: Hitung N2 -->
   <div class="section">
-    <h2>Hitung RPM Pulley Tujuan (N2)</h2>
-    <label for="d1_n2">Diameter Pulley Sumber (D1) cm:</label>
+    <h2>Ngitung RPM Pulley Tujuan (ꦱ2)</h2>
+    <label for="d1_n2">Diameter Pulley Sumber (ꦥ1) cm:</label>
     <input type="number" id="d1_n2" placeholder="misal 10" />
 
-    <label for="n1_n2">RPM Pulley Sumber (N1):</label>
-    <input type="number" id="n1_n2" placeholder="misal 1400" />
+    <label for="n1_n2">RPM Pulley Sumber (ꦱ1):</label>
+    <input type="number" id="n1_n2" placeholder="misal 1000" />
 
-    <label for="d2_n2">Diameter Pulley Tujuan (D2) cm:</label>
+    <label for="d2_n2">Diameter Pulley Tujuan (ꦥ2) cm:</label>
     <input type="number" id="d2_n2" placeholder="misal 12" />
 
-    <button onclick="calculateN2()">Hitung N2</button>
+    <button onclick="calculateN2()">Itungno RPM e dadi Piro? (ꦱ2)</button>
     <div class="result" id="resultN2"></div>
   </div>
 
